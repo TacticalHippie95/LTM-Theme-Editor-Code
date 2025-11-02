@@ -1,0 +1,93 @@
+{{#if theme_settings.gb-about-section-enable }}
+<div class="about-section">
+  <div class="about-section-container">
+
+    <div class="about-section-content">
+      {{#if theme_settings.gb-about-section-title }}
+        <h2 class="about-section-title"><span>{{ theme_settings.gb-about-section-title }}</span></h2>
+      {{/if}}
+
+      {{#if theme_settings.gb-about-section-subtitle }}
+        <h3 class="about-section-subtitle">{{ theme_settings.gb-about-section-subtitle }}</h3>
+      {{/if}}
+
+      {{{region name="home_about_section_content"}}}
+
+      {{#if theme_settings.gb-about-section-description }}
+        <div class="about-section-description">
+          {{{ theme_settings.gb-about-section-description }}}
+        </div>
+      {{/if}}
+    </div>
+
+    {{#if theme_settings.gb-about-section-show-features }}
+    <div class="about-section-features">
+      {{#if theme_settings.gb-about-section-feature1-icon }}
+      <div class="about-feature">
+        <div class="about-feature-icon">
+          <i class="{{ theme_settings.gb-about-section-feature1-icon }}"></i>
+        </div>
+        {{#if theme_settings.gb-about-section-feature1-title }}
+          <h4 class="about-feature-title">{{ theme_settings.gb-about-section-feature1-title }}</h4>
+        {{/if}}
+        {{#if theme_settings.gb-about-section-feature1-description }}
+          <p class="about-feature-description">{{ theme_settings.gb-about-section-feature1-description }}</p>
+        {{/if}}
+      </div>
+      {{/if}}
+
+      {{#if theme_settings.gb-about-section-feature2-icon }}
+      <div class="about-feature">
+        <div class="about-feature-icon">
+          <i class="{{ theme_settings.gb-about-section-feature2-icon }}"></i>
+        </div>
+        {{#if theme_settings.gb-about-section-feature2-title }}
+          <h4 class="about-feature-title">{{ theme_settings.gb-about-section-feature2-title }}</h4>
+        {{/if}}
+        {{#if theme_settings.gb-about-section-feature2-description }}
+          <p class="about-feature-description">{{ theme_settings.gb-about-section-feature2-description }}</p>
+        {{/if}}
+      </div>
+      {{/if}}
+
+      {{#if theme_settings.gb-about-section-feature3-icon }}
+      <div class="about-feature">
+        <div class="about-feature-icon">
+          <i class="{{ theme_settings.gb-about-section-feature3-icon }}"></i>
+        </div>
+        {{#if theme_settings.gb-about-section-feature3-title }}
+          <h4 class="about-feature-title">{{ theme_settings.gb-about-section-feature3-title }}</h4>
+        {{/if}}
+        {{#if theme_settings.gb-about-section-feature3-description }}
+          <p class="about-feature-description">{{ theme_settings.gb-about-section-feature3-description }}</p>
+        {{/if}}
+      </div>
+      {{/if}}
+
+      {{#if theme_settings.gb-about-section-feature4-icon }}
+      <div class="about-feature">
+        <div class="about-feature-icon">
+          <i class="{{ theme_settings.gb-about-section-feature4-icon }}"></i>
+        </div>
+        {{#if theme_settings.gb-about-section-feature4-title }}
+          <h4 class="about-feature-title">{{ theme_settings.gb-about-section-feature4-title }}</h4>
+        {{/if}}
+        {{#if theme_settings.gb-about-section-feature4-description }}
+          <p class="about-feature-description">{{ theme_settings.gb-about-section-feature4-description }}</p>
+        {{/if}}
+      </div>
+      {{/if}}
+    </div>
+    {{/if}}
+
+    {{#if theme_settings.gb-about-section-cta-btn-text }}
+      <div class="about-section-cta">
+        <a href="{{ theme_settings.gb-about-section-cta-btn-url }}" class="button btn button--primary style-action">
+          <span>{{ theme_settings.gb-about-section-cta-btn-text }}</span>
+        </a>
+      </div>
+    {{/if}}
+
+  </div>
+</div><!--.about-section ends-->
+{{/if}}

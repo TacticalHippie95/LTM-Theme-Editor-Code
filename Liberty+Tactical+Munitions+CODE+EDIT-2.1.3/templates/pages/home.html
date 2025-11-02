@@ -39,6 +39,11 @@ blog:
 
 <div id="main-container" class="main full" data-sections="{{ theme_settings.gb-section-order }}">
 
+            <section data-order="0">
+                    {{> components/gordonbyte/common/about-section/about-section theme_settings=theme_settings}}
+                    {{{region name="home_below_about_section"}}}
+            </section>
+
             <section data-order="1">
                     {{> components/gordonbyte/common/category-products/category-products theme_settings=theme_settings category=categories }}
                     {{{region name="home_below_category_products"}}}

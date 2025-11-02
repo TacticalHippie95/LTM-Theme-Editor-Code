@@ -1915,6 +1915,174 @@
     ]
   },
   {
+    "name": "About Section",
+    "settings": [
+      {
+        "type": "checkbox",
+        "label": "Enable About Section",
+        "force_reload": true,
+        "id": "gb-about-section-enable"
+      },
+      {
+        "type": "text",
+        "label": "Title",
+        "force_reload": true,
+        "id": "gb-about-section-title"
+      },
+      {
+        "type": "text",
+        "label": "Subtitle",
+        "force_reload": true,
+        "id": "gb-about-section-subtitle"
+      },
+      {
+        "type": "textarea",
+        "label": "Description (HTML allowed)",
+        "force_reload": true,
+        "id": "gb-about-section-description"
+      },
+      {
+        "type": "checkbox",
+        "label": "Show Features",
+        "force_reload": true,
+        "id": "gb-about-section-show-features"
+      },
+      {
+        "type": "heading",
+        "content": "Feature 1"
+      },
+      {
+        "type": "text",
+        "label": "Icon Class (e.g., fas fa-shield-alt)",
+        "force_reload": true,
+        "id": "gb-about-section-feature1-icon"
+      },
+      {
+        "type": "text",
+        "label": "Title",
+        "force_reload": true,
+        "id": "gb-about-section-feature1-title"
+      },
+      {
+        "type": "text",
+        "label": "Description",
+        "force_reload": true,
+        "id": "gb-about-section-feature1-description"
+      },
+      {
+        "type": "heading",
+        "content": "Feature 2"
+      },
+      {
+        "type": "text",
+        "label": "Icon Class (e.g., fas fa-certificate)",
+        "force_reload": true,
+        "id": "gb-about-section-feature2-icon"
+      },
+      {
+        "type": "text",
+        "label": "Title",
+        "force_reload": true,
+        "id": "gb-about-section-feature2-title"
+      },
+      {
+        "type": "text",
+        "label": "Description",
+        "force_reload": true,
+        "id": "gb-about-section-feature2-description"
+      },
+      {
+        "type": "heading",
+        "content": "Feature 3"
+      },
+      {
+        "type": "text",
+        "label": "Icon Class (e.g., fas fa-user-shield)",
+        "force_reload": true,
+        "id": "gb-about-section-feature3-icon"
+      },
+      {
+        "type": "text",
+        "label": "Title",
+        "force_reload": true,
+        "id": "gb-about-section-feature3-title"
+      },
+      {
+        "type": "text",
+        "label": "Description",
+        "force_reload": true,
+        "id": "gb-about-section-feature3-description"
+      },
+      {
+        "type": "heading",
+        "content": "Feature 4"
+      },
+      {
+        "type": "text",
+        "label": "Icon Class (e.g., fas fa-truck)",
+        "force_reload": true,
+        "id": "gb-about-section-feature4-icon"
+      },
+      {
+        "type": "text",
+        "label": "Title",
+        "force_reload": true,
+        "id": "gb-about-section-feature4-title"
+      },
+      {
+        "type": "text",
+        "label": "Description",
+        "force_reload": true,
+        "id": "gb-about-section-feature4-description"
+      },
+      {
+        "type": "heading",
+        "content": "Call to Action"
+      },
+      {
+        "type": "text",
+        "label": "Button Text",
+        "force_reload": true,
+        "id": "gb-about-section-cta-btn-text"
+      },
+      {
+        "type": "text",
+        "label": "Button URL",
+        "force_reload": true,
+        "id": "gb-about-section-cta-btn-url"
+      },
+      {
+        "type": "heading",
+        "content": "Style"
+      },
+      {
+        "type": "color",
+        "label": "Background Color",
+        "id": "gb-about-section-background-color"
+      },
+      {
+        "type": "color",
+        "label": "Text Color",
+        "id": "gb-about-section-text-color"
+      },
+      {
+        "type": "color",
+        "label": "Title Color",
+        "id": "gb-about-section-title-color"
+      },
+      {
+        "type": "color",
+        "label": "Feature Icon Color",
+        "id": "gb-about-section-feature-icon-color"
+      },
+      {
+        "type": "color",
+        "label": "Feature Background Color",
+        "id": "gb-about-section-feature-bg-color"
+      }
+    ]
+  },
+  {
     "name": "i18n.MultiColumn",
     "settings": [
       {
